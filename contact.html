@@ -2,6 +2,13 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
+    <!-- Meta Description -->
+    <meta name="description" content="Explore premium cars with stunning features, modern designs, and great performance. Find your dream car from our wide collection.">
+    <!-- Meta Keywords -->
+    <meta name="keywords" content="cars, premium cars, luxury cars, car showroom, modern cars, car collection, car sales">
+    <!-- Meta Author -->
+    <meta name="author" content="Royal Cars">
+    <!-- Viewport for Mobile -->
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <!----------- Css --------------->
     <link rel="stylesheet" href="css/bootstrap.min.css">
@@ -16,6 +23,9 @@
 <title>Royal Cars</title>
 </head>
 <body>
+    <div id="spinner" class="loading-spinner">
+        <div class="spinner"></div>
+    </div>
 <!----------- Header --------------->
 <header id="header">
     <nav id="nav">
@@ -31,33 +41,54 @@
                     <a href="about-us.html" class="navbar-item-link">about</a>
                 </li>
                 <li class="navbar-item">
-                    <a href="" class="navbar-item-link">service</a>
+                    <a href="service.html" class="navbar-item-link">service</a>
                 </li>
                 <li class="navbar-item">
-                    <a href="" class="navbar-item-link">cars</a>
+                    <a href="cars.html" class="navbar-item-link">cars</a>
                 </li>
                 <li class="navbar-item">
-                    <label for="dropdown" class=" label text-light">pages</label>
-                    <div class="dropdown">
-                        <ul class="dropdown-list">
-                            <li class="dropdown-item">
-                                <a href="">page-1</a>
-                            </li>
-                            <li class="dropdown-item">
-                                <a href="">page-2</a>
-                            </li>
-                            <li class="dropdown-item">
-                                <a href="">page-3</a>
-                            </li>
-                        </ul>
-                    </div>
-                </li>
-                <li class="navbar-item">
-                    <a href="" class="navbar-item-link">contact</a>
+                    <a href="contact.html" class="navbar-item-link">contact</a>
                 </li>
             </ul>
-    </nav>
+    </nav> 
+
+<!----------- slider --------------->
+<div id="demo mt--1" class="carousel slide" data-bs-ride="carousel">
+    
+        <div class="carousel-inner">
+        <div class="carousel-item active">
+            <div class="slider-overlay"></div>
+            <img src="image/carousel-1.jpg" alt="Los Angeles" class="d-block w-100">
+            <div class="carousel-caption">
+                <p>Rent A Car</p>
+                <h1>Best Rental Cars In Your Location</h1>
+                <button>reserve now</button>
+            </div>
+        </div>
+        <div class="carousel-item">
+            <img src="image/carousel-2.jpg" alt="Chicago" class="d-block w-100">
+                <div class="slider-overlay"></div>
+            <div class="carousel-caption">
+                <p >Rent A Car</p>
+               <h1> Quality Cars with Unlimited Miles</h1>
+                <button>reserve now</button>
+            </div>
+            
+        </div>
+        </div>
+
+        <button class="carousel-control-prev" type="button" data-bs-target="#demo" data-bs-slide="prev">
+        <span class="carousel-control-prev-icon"></span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#demo" data-bs-slide="next">
+        <span class="carousel-control-next-icon"></span>
+        </button>
+  </div>
+<!----------- slider --------------->
+
 </header>
+
+<!----------- Header --------------->
 
 <!----------- contact us --------------->
 <div class="contact-us container text-center mt-5 mb-5">
@@ -242,9 +273,6 @@
     </div>
 </div>
 <!----------- copyright --------------->
-
-
-
 
 <!----------- Script --------------->
 <script src="js/bootstrap.min.js"></script>
