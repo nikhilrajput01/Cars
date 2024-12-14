@@ -16,3 +16,11 @@ document.querySelectorAll('.find-car-box-section').forEach((find) => {
     })
 });
 /////////////// find car ////////////////////////
+
+
+
+// Hide spinner after the page loads
+window.addEventListener("load", function () {
+    const spinner = document.getElementById("spinner");
+    spinner.style.display = "none";
+});
