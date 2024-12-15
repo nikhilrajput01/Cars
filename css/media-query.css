@@ -47,9 +47,9 @@
     .navbar-list{
         width: 100%;
         height: auto;
-        position: fixed;
+        position: absolute;
         left: -100%;
-        top: 3.9rem;
+        top: 4.8rem;
         background-color: var(--secondary);
         transition: .5s;
         z-index: 3;
@@ -169,6 +169,57 @@
 }
 /************************** about-us *********************************/
 
+/************************** client *********************************/
+
+@media screen and (max-width:992px){
+    .client-img {
+        width: 150px;;
+        height: 150px;
+        /* margin-left: 8rem; */
+    }
+    #client-text{
+        margin-top: 0rem;
+        padding-right: 0rem;
+    }
+}
+@media screen and (max-width:768px){
+    .client-text{
+        
+    }
+    .client-img {
+        width: 250px;
+        height: 250px;
+        justify-self: center;
+    }
+    .client-slider h2{
+        font-size:2rem;
+        justify-self: center;
+        padding-top: 1rem;
+    }
+    .client-slider h4{
+        font-size: 1.5rem;
+        padding:0rem;
+        justify-self: center;
+    }
+    .client-slider p{
+        font-size: .7rem;
+        padding-right: 7rem;
+        justify-self: center;
+        padding-left: 9rem;
+    }
+
+}
+@media screen and (max-width:550px) {
+    .client-slider p{
+        font-size: .7rem;
+        padding: 0rem 3rem;
+    }
+    .client h1{
+        font-size: 2.5rem;
+    }
+}
+/************************** client *********************************/
+
 
 /************************** offer *********************************/
 @media screen and (max-width:770px){
@@ -205,6 +256,78 @@
 /************************** offer *********************************/
 
 /************************** find car *********************************/
+@media screen and (max-width:576px) {
+    .drive-section{
+        margin: 0rem 2rem;
+    }
+    .drive-img{
+        width: 80%;
+    }
+    .drive-section h2{
+        font-size: 1.5rem;
+        margin: 0rem;
+    }
+    .drive-section p{
+        font-size: .7rem;
+        margin: 0px;
+        margin-top: 1rem;
+    }
+    .drive-section button{
+        background-color: var(--primary);
+        padding: 0.5rem 0.8rem;
+        font-size: .8rem;
+    }
+
+}
+
 
 /************************** find car *********************************/
+
+/************************** car brand *********************************/
+/* @media screen and (max-width:768px){
+    .car-brand{
+        background-color: var(--text);
+    }
+    .car-brand-box{
+        background-color: var(--light);
+    }
+    .car-box{
+        padding: 0rem;
+    }
+    .car-brand img{
+        width: 100%;
+    }
+} */
+
+/************************** car brand *********************************/
+
+/************************** fooer *********************************/
+@media screen and (max-width:991px){
+    .social{
+        margin-bottom:2rem ;
+    }
+    .news-section{
+        margin-top: 1.2rem;
+    }
+    .uselink{
+        margin-left: 1rem;
+    }
+    .gallery{
+        width: 90%;
+    }
+}
+@media screen and (max-width:765px){
+    .news-section{
+        margin-top: 1.2rem;
+        margin-left: -1.5rem;
+        width: 90%;
+    }
+    .uselink{
+        margin-left: 0rem;
+    }
+    .gallery{
+        width: 80%;
+    }
+}
+/************************** fooer *********************************/
 

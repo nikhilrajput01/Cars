@@ -5,6 +5,10 @@
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     font-style: italic;
 }
+a{
+    text-decoration: none;
+    color: var(--light);
+}
 :root{
     --primary:#F77D0A;
     --secondary:#2B2E4A;
@@ -294,6 +298,11 @@ img{
     margin-top: 1.5rem;
     font-size: 1rem;
 }
+.find-car-box button:hover{
+    background-color: var(--text);
+    color: var(--primary);
+
+}
 .find-car-box-section:hover{
     background-color: var(--secondary);
     color: var(--light);
@@ -362,9 +371,9 @@ img{
     background-color: var(--light);
     padding: 4rem 1rem 2rem 1rem ;
 }
-.client-img {
-    width:250px;
-    height: 250px;
+#client-text{
+    margin-top: 3rem;
+    padding-right: 8rem;
 }
 .client-slider h2{
     font-size:2.5rem;
@@ -459,7 +468,7 @@ background-color: var(--dark);
 /*********** contact us *************/
 
 /*********** cars-brand *************/
-.car-brand{
+/* .car-brand{
     background-color: var(--text);
 }
 .car-brand-box{
@@ -470,7 +479,7 @@ background-color: var(--dark);
 }
 .car-brand img{
     width: 100%;
-}
+} */
 /*********** cars-brand *************/
 
 /*********** footer *************/
