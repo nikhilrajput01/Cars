@@ -60,7 +60,12 @@
     }
     
 }
+@media screen and (min-width:430px){
+    #logo{
+        font-size: 2rem;
+    }
 
+}
 /************************** navbar *********************************/
 /************************** slider *********************************/
 @media screen and (min-width:870px){
